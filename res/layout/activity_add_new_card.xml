@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cardbackground3" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Back"
+        android:textColor="#ff8B4513"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_marginTop="52dp"
+        android:text="Front"
+        android:textColor="#ff8B4513"
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/front_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/back_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/front_editText"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="40dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/ok_addcard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/back_editText"
+        android:layout_below="@+id/back_editText"
+        android:layout_marginTop="41dp"
+        android:background="@drawable/button_yellow"
+        android:text="@string/OK" />
+
+    <Button
+        android:id="@+id/cancel_addcard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ok_addcard"
+        android:layout_alignBottom="@+id/ok_addcard"
+        android:layout_alignRight="@+id/back_editText"
+        android:background="@drawable/button_yellow"
+        android:text="@string/cancel" />
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background02" >
+
+    <Button
+        android:id="@+id/flashcards_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/quizlet_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/button_red"
+        android:text="@string/to_flashcards"
+        android:textColor="#ffff"
+        android:textSize="25sp"
+        android:typeface="monospace" />
+
+    <Button
+        android:id="@+id/quizlet_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/about_us_button"
+        android:layout_alignLeft="@+id/flashcards_button"
+        android:layout_alignRight="@+id/flashcards_button"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/button_blue"
+        android:text="@string/to_quizlet"
+        android:textColor="#ffff"
+        android:textSize="25sp"
+        android:typeface="monospace" />
+
+    <Button
+        android:id="@+id/about_us_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/flashcards_button"
+        android:layout_alignRight="@+id/flashcards_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/button_green"
+        android:text="@string/to_about_us"
+        android:textColor="#ffff"
+        android:textSize="25sp"
+        android:typeface="monospace" />
+
+    <ImageView
+        android:id="@+id/facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/about_us_button"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/facebook_icon1" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/facebook"
+        android:layout_alignLeft="@+id/facebook"
+        android:layout_alignTop="@+id/facebook"
+        android:layout_marginLeft="70dp"
+        android:background="@drawable/mail" />
+
+    <ImageView
+        android:id="@+id/google"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/view1"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/view1"
+        android:src="@drawable/google01" />
+
+</RelativeLayout>

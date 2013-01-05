@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cardbackground3" >
+
+    <include layout="@layout/front_face" />
+
+    <include layout="@layout/back_face" />
+
+    <TextView
+        android:id="@+id/progress_text_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignBottom="@+id/close_button"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/go_next"
+        android:layout_toRightOf="@+id/close_button"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="@string/default_progress" />
+
+    <Button
+        android:id="@+id/go_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/arrow_right1" />
+
+    <Button
+        android:id="@+id/go_prev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/arrow_left1" />
+
+    <Button
+        android:id="@+id/close_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/deletebutton" />
+
+    <Button
+        android:id="@+id/add_new_card"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:text="@string/add_sign" />
+
+</RelativeLayout>

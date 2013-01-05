@@ -1,0 +1,47 @@
+<resources>
+
+    <string name="app_name">FlashCards</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="to_flashcards">FlashCards</string>
+    <string name="to_quizlet">Quizlet</string>
+    <string name="to_exit">Exit</string>
+    <string name="to_about_us">About Us</string>
+    <string name="title_activity_card_view">Studying Flash Card</string>
+    <string name="close">X</string>
+    <string name="default_card_front">Vocabulary</string>
+    <string name="default_progress">001 / 130</string>
+    <string name="english">english</string>
+    <string name="spanish">spanish</string>
+    <string name="french">french</string>
+    <string name="chinese">chinese</string>
+    <string name="japanese">japanese</string>
+    <string name="search_hint">search</string>
+    <string name="app_label">app</string>
+    <string name="title_activity_flash_card_list">FlashCard</string>
+    <string name="title_activity_quizlet">Quizle</string>
+    <string name="import_List">Import List</string>
+    <string name="sync">Synchronize</string>
+    <string name="login">Login</string>
+    <string name="title_activity_activity_card_view">Activity_card_view</string>
+    <string name="title_activity_activity_flash_card_list">Activity_flash_card_list</string>
+    <string name="title_activity_activity_quizlet">Activity_quizlet</string>
+    <string name="edit">Edit</string>
+    <string name="add">+</string>
+    <string name="title_activity_activity_add_new_card_set">Activity_addNewCardSet</string>
+    <string name="OK">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="addNewCardSetHint">Input the new card group name</string>
+    <string name="title_activity_activity_edit_card_set">Activity_editCardSet</string>
+    <string name="title_activity_activity_search">Activity_search</string>
+    <string name="menu_search">Search</string>
+    <string name="Add">add</string>
+    <string name="add_sign">+</string>
+    <string name="title_activity_activity_add_new_card">Activity_add_new_card</string>
+    <string name="title_activity_preview_card_set">PreviewCardSet</string>
+    <string name="title_activity_activity_preview_card_set">Activity_previewCardSet</string>
+    <string name="download">download</string>
+    <string name="title_activity_activity_aboutus">Activity_aboutus</string>
+
+</resources>
